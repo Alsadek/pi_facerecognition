@@ -1,5 +1,5 @@
 # USAGE
-# python face_detection_encoding.py --cascade haarcascade_frontalface_default.xml --output dataset/adrian --encodings encodings.pickle --detection-method hog
+# python face_detection_encoding.py --cascade haarcascade_frontalface_default.xml --output dataset/YOURNAME --encodings encodings.pickle --detection-method hog
 
 # import the necessary packages
 from imutils.video import VideoStream
