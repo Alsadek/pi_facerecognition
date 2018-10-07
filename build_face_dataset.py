@@ -57,7 +57,7 @@ while True:
 	ts = os.path.sep.join([args["output"], "{}.png".format(str(total).zfill(5))])
 	cv2.imwrite(ts, orig)
 	total += 1
-	if (total == 20):
+	if (total == 30):
             break
  
 	# if the `k` key was pressed, write the *original* frame to disk
